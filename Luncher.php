@@ -1,6 +1,6 @@
 <?php
  <?php
--define('BOT_TOKEN', '**TOKEN**');
+-define('BOT_TOKEN', '514238673:AAGyBa0x610mfOuuh8ZBCqlvWznjLcLVSTc');
 +/*
 -define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 +سورس اصلی ربات پی وی رسان
@@ -151,7 +151,7 @@
 -  // process incoming message
 -  $boolean = file_get_contents('booleans.txt');
 -  $booleans= explode("\n",$boolean);
--  $admin = **ADMIN**;
+-  $admin = 214682771;
 -  $message_id = $message['message_id'];
 -  $rpto = $message['reply_to_message']['forward_from']['id'];
 -  $chat_id = $message['chat']['id'];
